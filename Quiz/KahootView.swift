@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct KahootView: View {
-    @State var points: Int = 11
+    @State var points: Int = 0
     @State var index: Int = 0
     @State var questionAllDone = false
     @State var summonCorrect = false
