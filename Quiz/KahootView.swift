@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct KahootView: View {
+struct QuizView: View {
     @State var points: Int = 0
     @State var index: Int = 0
     @State var questionAllDone = false
@@ -194,7 +194,7 @@ struct KahootView: View {
 
 struct KahootView_Previews: PreviewProvider {
     static var previews: some View {
-        KahootView()
+        QuizView()
     }
 }
 
